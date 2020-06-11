@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="">
+        <div class="wrapper">
+            <div class="header">
+                <span>Contact Manager</span>
+                <select name="actions">
+                    <option disabled selected>More actions</option>
+                    <option value="Action 1">Action 1</option>
+                    <option value="Action 2">Action 2</option>
+                    <option value="Action 3">Action 3</option>
+                    <option value="Action 4">Action 4</option>
+                    <option value="Action 5">Action 5</option>
+                </select>
+            </div>
+            <div class="main">
+                <div class="left-block">
+                    <label class="input-item">
+                        <span class="required">First name</span>
+                        <input class="big-field" type="text"/>
+                    </label>
+                    <label class="input-item">
+                        <span class="required">Last name</span>
+                        <input class="big-field" type="text" required/>
+                    </label>
+                    <label class="input-item">
+                        <span>Address</span>
+                        <input class="address-field" type="text"/>
+                    </label>
+                    <label class="input-item">
+                        <span>City</span>
+                        <input class="big-field" type="text"/>
+                    </label>
+                    <label class="input-item">
+                        <span>State</span>
+                        <select class="select-state" name="state" id="">
+                            <option disabled selected>-Select-</option>
+                            <option value="Alaska">Alaska</option>
+                            <option value="Illinois">Illinois</option>
+                            <option value="California">California</option>
+                            <option value="Colorado">Colorado</option>
+                            <option value="Michigan">Michigan</option>
+                        </select>
+                    </label>
+                    <label class="input-item">
+                        <span>Zip</span>
+                        <input class="big-field" type="text"/>
+                    </label>
+                    <label class="input-item">
+                        <span>Home Phone</span>
+                        <input class="small-field" type="text"/>
+                    </label>
+                    <label class="input-item">
+                        <span class="required">Work Phone</span>
+                        <input class="big-field" type="text" required/>
+                    </label>
+                    <label class="input-item">
+                        <span>Fax Number</span>
+                        <input class="small-field" type="text"/>
+                    </label>
+                    <label class="input-item">
+                        <span>Website</span>
+                        <ul class="website">
+                            <li>
+                                <label class="input-item">
+                                    <span class="website-details">URL</span>
+                                    <input class="big-field" type="text"/>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="input-item">
+                                    <span class="website-details">Link Name</span>
+                                    <input class="big-field" type="text"/>
+                                </label>
+                            </li>
+                        </ul>
+                    </label>
+                    <label class="input-item">
+                        <span class="required">Email Address</span>
+                        <input type="text" required/>
+                    </label>
+                </div>
+                <div class="right-block">
+                    <label class="input-item">
+                        <span>When is the best time to contact you?</span>
+                            <ul class="options1">
+                                <li>
+                                    <input type="radio" name="contact" value="morning">
+                                    <span class="answers">Morning</span>
+                                </li>
+                                <li>
+                                    <input type="radio" name="contact" value="afternoon">
+                                    <span class="answers">Afternoon</span>
+                                </li>
+                                <li>
+                                    <input type="radio" name="contact" value="evening">
+                                    <span class="answers">Evening</span>
+                                </li>
+                            </ul>
+                    </label>
+                    <label class="input-item">
+                        <span>What is the best way to contact you?</span>
+                        <ul class="options2">
+                            <li>
+                                <input type="radio" name="contact" value="phone">
+                                <span class="answers">Phone</span>
+                            </li>
+                            <li>
+                                <input type="radio" name="contact" value="email">
+                                <span class="answers">Email</span>
+                            </li>
+                            <li>
+                                <input type="radio" name="contact" value="fax">
+                                <span class="answers">Fax</span>
+                            </li>
+                        </ul>
+                    </label>
+                    <label class="input-item">
+                        <span>Message</span>
+                        <input class="message-field" type="text"/>
+                    </label>
+                </div> 
+            </div>
+            <div class="footer">
+                <input class="footer-bottom" type="submit" name="submit" value="Submit">
+                <input class="footer-bottom" type="reset" name="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

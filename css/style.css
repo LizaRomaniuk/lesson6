@@ -1,0 +1,72 @@
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+.header {
+    background-color: #c1eb9f;
+    padding: 15px;
+}
+.header select {
+    background-color: #c1eb9f;
+    border: none;
+}
+.input-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.main {
+    display: flex;
+}
+.left-block, .right-block {
+    width: 50%;
+}
+.required:after{
+    content: "*";
+    color:red;
+}
+span {
+    font-weight: bold;
+}
+big.field {
+    width: 40%;
+    margin-right: -10px;
+}
+.small-field {
+    width: 12%;
+    justify-content: flex-start;
+}
+.answers, .website-details {
+    font-weight: normal;
+}
+.address-field, .message-field {
+    height: 80px;
+}
+.message-field {
+    margin-right: 40px;
+}
+.options1 {
+    margin-right: 85px;
+}
+.options2 {
+    margin-right: 110px;
+}
+.footer {
+    background-color: #e3e3e3;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid green;
+}
+.footer-bottom {
+    background-color: #91ba6f;
+    color: white;
+}
+
+
+
+
+
+
